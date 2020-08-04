@@ -2,18 +2,21 @@ import express from "express";
 
 const app = express();
 
-// GET: Seach and list information
-// POST: Create some new information
-// PUT: Update existing information
-// DELETE: Delete existing information
+app.use(express.json());
 
-app.post("/users", (request, response) => {
-    const users = [
-        {name: 'Juan', age: 18},
-        {name: 'Bina', age: 18},
-        {name: 'Diego', age: 25},
-    ]
-    return response.json(users)
+// HTTP:
+// GET: Seach and list information.
+// POST: Create some new information.
+// PUT: Update existing information.
+// DELETE: Delete existing information.
+
+// Params:
+// Body(Request Body): data for creating or updating a register.
+// Route Params: Identify which feature I want to update or delete.
+// Query Params: Page, filter, ordination.
+
+app.get("/", (request, response) => {
+    return response.json({ message: "Hello world" });
 });
 
 app.listen(3333);
