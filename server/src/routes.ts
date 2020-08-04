@@ -22,7 +22,9 @@ routes.post("/classes", async (request, response) => {
         schedule,
     } = request.body;
 
-    const insertedUsersIds = await db("users").insert({
+    const trx = await db.transaction();
+
+    const insertedUsersIds = await trx("users").insert({
         name,
         avatar,
         whatsapp,
@@ -31,7 +33,7 @@ routes.post("/classes", async (request, response) => {
 
     const user_id = insertedUsersIds[0];
 
-    const insertedClassesIds = await db("classes").insert({
+    const insertedClassesIds = await trx("classes").insert({
         subject,
         cost,
         user_id,
@@ -48,7 +50,7 @@ routes.post("/classes", async (request, response) => {
         };
     });
 
-    await db("class_schedule").insert(classSchedule);
+    await trx("class_schedule").insert(classSchedule);
 
     return response.send();
 });
