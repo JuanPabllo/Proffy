@@ -57,6 +57,10 @@
     position: relative;
 }
 
+#search-teachers .input-block * .input-block{
+    margin-top: 1.4rem;
+}
+
 #search-teachers .input-block label {
     font-size: 1.4rem;
 }
