@@ -46,9 +46,9 @@ routes.post("/classes", async (request, response) => {
             from: convertHoursToMinutes(scheduleItem.from),
             to: convertHoursToMinutes(scheduleItem.to),
         };
-    })
+    });
 
-    await db('class_schedule').insert(classSchedule)
+    await db("class_schedule").insert(classSchedule);
 
     return response.send();
 });
