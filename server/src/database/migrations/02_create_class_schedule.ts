@@ -9,10 +9,10 @@ export async function up(knex: knex) {
         table.integer("to").notNullable();
 
         table
-            .integer("user_id")
+            .integer("class_id")
             .notNullable()
             .references("id")
-            .inTable("users")
+            .inTable("classes")
             .onUpdate("CASCADE")
             .onDelete("CASCADE");
     });
