@@ -12,7 +12,7 @@ interface PageHeaderProps {
 
 import styles from "./styles";
 
-const PageHeader: React.FC<PageHeaderProps> = ({ title }) => {
+const PageHeader: React.FC<PageHeaderProps> = ({ title, children }) => {
     const { navigate } = useNavigation();
 
     function handleGoBack() {
@@ -30,6 +30,8 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title }) => {
             </View>
 
             <Text style={styles.title}>{title}</Text>
+
+            {children}
         </View>
     );
 };
