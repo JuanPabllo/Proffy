@@ -23,29 +23,28 @@ const styles = StyleSheet.create({
 
     description: {
         marginTop: 24,
-        color: '#d4c2ff',
+        color: "#d4c2ff",
         fontSize: 16,
         lineHeight: 26,
-        fontFamily: 'Poppins_400Regular',
-        maxWidth: 240
+        fontFamily: "Poppins_400Regular",
+        maxWidth: 240,
     },
 
     // Button
 
     okButton: {
         marginVertical: 40,
-        backgroundColor: '#04d361',
+        backgroundColor: "#04d361",
         height: 58,
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderRadius: 8
+        alignItems: "center",
+        justifyContent: "center",
+        borderRadius: 8,
     },
 
     okButtonText: {
-        color: '#fff',
+        color: "#fff",
         fontSize: 16,
-        fontFamily: 'Archivo_700Bold'
-
-    }
+        fontFamily: "Archivo_700Bold",
+    },
 });
 export default styles;

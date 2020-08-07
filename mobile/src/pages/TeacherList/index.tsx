@@ -8,7 +8,7 @@ import styles from "./styles";
 function TeacherList() {
     return (
         <View style={styles.container}>
-            <PageHeader title="Proffys disponíveis"/>
+            <PageHeader title="Proffys disponíveis" />
         </View>
     );
 }
