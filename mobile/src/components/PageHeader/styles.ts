@@ -13,9 +13,9 @@ const styles = StyleSheet.create({
     },
 
     header: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between'
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
     },
 
     title: {

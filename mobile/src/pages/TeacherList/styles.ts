@@ -38,18 +38,18 @@ const styles = StyleSheet.create({
         marginBottom: 16,
     },
 
-    submitButton:{
-        backgroundColor: '#04d361',
+    submitButton: {
+        backgroundColor: "#04d361",
         height: 56,
         borderRadius: 8,
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
     },
 
-    submitButtonText:{
-        color: '#fff',
-        fontFamily: 'Archivo_700Bold',
+    submitButtonText: {
+        color: "#fff",
+        fontFamily: "Archivo_700Bold",
         fontSize: 16,
     },
 });
