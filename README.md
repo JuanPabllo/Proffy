@@ -79,7 +79,7 @@ To start the server you need the database, to make migrations use the command:
 $ yarn knex:migrate
 ```
 
-> The above command is a custom command made on `package.json` file. (Ln 8, Col 5)
+> The above command is a custom command made on `package.json` file.
 
 ##### Server
 
@@ -181,7 +181,7 @@ If you want do help with the code follow the steps bellow
 ```ps
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
-$ gh repo fork pmqueiroz/proffy
+$ gh repo fork JuanPabllo/Proffy
 
 # Clone your fork
 $ git clone {your-fork-url}
