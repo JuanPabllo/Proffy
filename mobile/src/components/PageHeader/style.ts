@@ -5,7 +5,6 @@ const styles = StyleSheet.create({
         padding: 40,
         backgroundColor: "#8257e5",
     },
-
     topBar: {
         flexDirection: "row",
         alignItems: "center",
@@ -20,8 +19,8 @@ const styles = StyleSheet.create({
 
     title: {
         fontFamily: "Archivo_700Bold",
-        color: "#fff",
-        fontSize: 24,
+        color: "#FFF",
+        fontSize: 23,
         lineHeight: 32,
         maxWidth: 160,
         marginVertical: 40,

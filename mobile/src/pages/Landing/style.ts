@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create({
+const style = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: "#8257e5",
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
 
     buttonsContainer: {
         flexDirection: "row",
-        margin: 40,
+        marginTop: 40,
         justifyContent: "space-between",
     },
 
@@ -64,4 +64,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default styles;
+export default style;

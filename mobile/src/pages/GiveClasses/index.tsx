@@ -3,9 +3,9 @@ import { View, ImageBackground, Text } from "react-native";
 import { RectButton } from "react-native-gesture-handler";
 import { useNavigation } from "@react-navigation/native";
 
-import giveClassesBgImage from "../../assets/images/give-classes-background.png";
+import styles from "./style";
 
-import styles from "./styles";
+import giveClassesBgImage from "../../assets/images/give-classes-background.png";
 
 function GiveClasses() {
     const { goBack } = useNavigation();
@@ -21,15 +21,15 @@ function GiveClasses() {
                 source={giveClassesBgImage}
                 style={styles.content}
             >
-                <Text style={styles.title}>Quer ser um Proffy?</Text>
+                <Text style={styles.title}>Want to be a Proffy?</Text>
                 <Text style={styles.description}>
-                    Para começar, você precisa se cadastrar como professor na
-                    nossa plataforma web.
+                    To start, you need to sign up as a teacher on our web
+                    platform
                 </Text>
             </ImageBackground>
 
-            <RectButton onPress={handleNavigateBack} style={styles.okButton}>
-                <Text style={styles.okButtonText}>Tudo bem</Text>
+            <RectButton style={[styles.button]} onPress={handleNavigateBack}>
+                <Text style={styles.buttonText}>Ok</Text>
             </RectButton>
         </View>
     );

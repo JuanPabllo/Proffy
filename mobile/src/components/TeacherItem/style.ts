@@ -2,14 +2,13 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: "#fff",
+        backgroundColor: "#FFF",
         borderWidth: 1,
         borderColor: "#e6e6f0",
         borderRadius: 8,
         marginBottom: 16,
         overflow: "hidden",
     },
-
     profile: {
         flexDirection: "row",
         alignItems: "center",
@@ -20,7 +19,6 @@ const styles = StyleSheet.create({
         width: 64,
         height: 64,
         borderRadius: 32,
-        backgroundColor: "#fff",
     },
 
     profileInfo: {
@@ -32,24 +30,21 @@ const styles = StyleSheet.create({
         color: "#32264d",
         fontSize: 20,
     },
-
     subject: {
         fontFamily: "Poppins_400Regular",
         color: "#6a6180",
         fontSize: 12,
         marginTop: 4,
     },
-
     bio: {
         marginHorizontal: 24,
         fontFamily: "Poppins_400Regular",
         fontSize: 14,
         lineHeight: 24,
-        color: "#6a6180",
+        color: "#646180",
     },
-
     footer: {
-        backgroundColor: "#fafafc",
+        backgroundColor: "#FAFAFC",
         padding: 24,
         alignItems: "center",
         marginTop: 24,
@@ -57,7 +52,7 @@ const styles = StyleSheet.create({
 
     price: {
         fontFamily: "Poppins_400Regular",
-        color: "#6a6180",
+        color: "#646180",
         fontSize: 14,
     },
 
@@ -83,7 +78,7 @@ const styles = StyleSheet.create({
     },
 
     favorited: {
-        backgroundColor: "#e33d3d",
+        backgroundColor: "#e33e3d",
     },
 
     contactButton: {
@@ -98,7 +93,7 @@ const styles = StyleSheet.create({
     },
 
     contactButtonText: {
-        color: "#fff",
+        color: "#FFF",
         fontFamily: "Archivo_700Bold",
         fontSize: 16,
         marginLeft: 16,
