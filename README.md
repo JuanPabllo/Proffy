@@ -16,8 +16,6 @@
 </p>
 
 <div align="center">  
-    
-[![License][license-badge]][license-url]
 
 </div>
 
