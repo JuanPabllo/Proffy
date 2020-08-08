@@ -1,16 +1,7 @@
 
-[license-badge]: https://img.shields.io/github/license/pmqueiroz/proffy?color=%238257E5
-[star-badge]: https://img.shields.io/github/stars/pmqueiroz/proffy?color=8257E5&logo=github
-[last-commit-badge]: https://img.shields.io/github/last-commit/pmqueiroz/proffy?color=%238257E5
-[netfly-badge]: https://img.shields.io/netlify/b4d3ee80-98f0-42d0-b3d0-13879c811a00?color=%238257E5
 [codacy-badge]: https://app.codacy.com/project/badge/Grade/b2d32fa731984f3e9c3eaa814861c9db
 [license-url]: https://github.com/JuanPabllo/Proffy/blob/master/README.md
 [issues-url]: https://github.com/JuanPabllo/Proffy/issues
-[node-url]: https://nodejs.org/en
-[yarn-url]: https://classic.yarnpkg.com/
-[npm-url]: https://www.npmjs.com/
-[expo-url]: https://expo.io/
-
 <!-- VARS -->
 
 <div align="center">
@@ -27,11 +18,6 @@
 <div align="center">  
     
 [![License][license-badge]][license-url]
-![Git Stars][star-badge]
-[![Netfly Stats][netfly-badge]][netfly-url]
-[![Netfly Stats][proffy-apk-badge]][proffy-apk-url]
-![NLW Stats][nlw-badge]
-![Codacy Quality][codacy-badge]
 
 </div>
 
