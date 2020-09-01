@@ -49,9 +49,9 @@ $ cd proffy
 
 #### Requirements
 
--   [Node.js][node-url]
--   [Yarn][yarn-url] or [npm][npm-url]
--   [Expo][expo-url]
+-   [Node.js](https://nodejs.org/en/)
+-   [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+-   [Expo](https://expo.io/)
 
 ##### Web
 
